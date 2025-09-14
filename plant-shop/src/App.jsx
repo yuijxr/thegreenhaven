@@ -265,7 +265,7 @@ function CartPage() {
 /* -------- Main App -------- */
 export default function App() {
   return (
-    <Router>
+    <Router basename="/thegreenhaven">
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
